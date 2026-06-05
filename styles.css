@@ -193,6 +193,8 @@ a { color: inherit; }
 }
 
 .main-nav a:hover { color: var(--coral); }
+.main-nav .btn-coral,
+.main-nav .btn-coral:hover { color: var(--white); }
 
 
 /* ============================================================
