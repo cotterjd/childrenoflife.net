@@ -38,6 +38,11 @@
     <section class="hero">
         <div class="hero-media">
             <img src="img_2020_11_21_14_39_05.jpg" alt="Children playing at Children of Life MDO">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1>Welcome to Children of Life</h1>
+            <a href="#contact" class="hero-contact-link">Call or email for questions and enrollment</a>
         </div>
     </section>
 
@@ -155,86 +160,34 @@
         </div>
     </section>
 
-    <!-- ===== ENROLL / CONTACT ===== -->
-    <section id="enroll" class="section bg-coral-light">
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section bg-coral-light">
         <div class="container">
             <div class="section-head">
-                <h2>Ready to Enroll?</h2>
-                <p>Fill out the form below and we'll reach out within one business day to answer questions and get your child registered.</p>
+                <h2>Contact Us</h2>
             </div>
-            <div class="contact-layout">
-                <div class="contact-info" id="contact">
-                    <h3>Get in Touch</h3>
-                    <div class="contact-item">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="#E8756A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                        <div>
-                            <strong>Address</strong>
-                            <p>1709 N Lyle Rd<br>Weatherford, OK 73096</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="#E8756A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.01 1.18 2 2 0 012 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92z"/></svg>
-                        <div>
-                            <strong>Phone</strong>
-                            <p>(580) 772-2234</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="#E8756A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-                        <div>
-                            <strong>Email</strong>
-                            <p>childrenoflife@outlook.com</p>
-                        </div>
+            <div class="contact-info contact-info-centered">
+                <div class="contact-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#E8756A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    <div>
+                        <strong>Address</strong>
+                        <p>1709 N Lyle Rd<br>Weatherford, OK 73096</p>
                     </div>
                 </div>
-                <form class="enroll-form" onsubmit="return false;">
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="parent-name">Parent / Guardian Name</label>
-                            <input type="text" id="parent-name" placeholder="Jane Smith" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="child-name">Child's Name</label>
-                            <input type="text" id="child-name" placeholder="Emma Smith" required>
-                        </div>
+                <div class="contact-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#E8756A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.01 1.18 2 2 0 012 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92z"/></svg>
+                    <div>
+                        <strong>Phone</strong>
+                        <p><a href="tel:5807722234">(580) 772-2234</a></p>
                     </div>
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="email">Email Address</label>
-                            <input type="email" id="email" placeholder="jane@email.com" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="phone">Phone Number</label>
-                            <input type="tel" id="phone" placeholder="(972) 555-0000">
-                        </div>
+                </div>
+                <div class="contact-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#E8756A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    <div>
+                        <strong>Email</strong>
+                        <p><a href="mailto:childrenoflife@outlook.com">childrenoflife@outlook.com</a></p>
                     </div>
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="child-age">Child's Age / Date of Birth</label>
-                            <input type="text" id="child-age" placeholder="e.g. 2 years, or 04/15/2022">
-                        </div>
-                        <div class="form-group">
-                            <label for="days">Days Interested In</label>
-                            <select id="days">
-                                <option value="" disabled selected>Select program...</option>
-                                <optgroup label="Infants &amp; Toddlers (0–1)">
-                                    <option>Tue &amp; Thu — $220/month</option>
-                                </optgroup>
-                                <optgroup label="Preschool (3–4)">
-                                    <option>Mon &amp; Wed — $200/month</option>
-                                    <option>Tue &amp; Thu — $200/month</option>
-                                    <option>Full Schedule (Mon–Thu) — $380/month</option>
-                                    <option>Drop-In — $30/day</option>
-                                </optgroup>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="notes">Questions or Notes</label>
-                        <textarea id="notes" rows="4" placeholder="Any questions, allergies, or other information we should know..."></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-coral btn-lg">Send Enrollment Inquiry</button>
-                </form>
+                </div>
             </div>
         </div>
     </section>
@@ -257,7 +210,6 @@
             <div class="footer-links">
                 <a href="#schedule">Schedule</a>
                 <a href="#rates">Rates</a>
-                <a href="#enroll">Enroll</a>
                 <a href="#contact">Contact</a>
             </div>
             <div class="footer-contact">
