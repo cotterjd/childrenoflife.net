@@ -513,6 +513,45 @@ a { color: inherit; }
 
 
 /* ============================================================
+   AGE GROUP LABELS (Rates)
+   ============================================================ */
+.rates-age-group {
+    margin-bottom: 3rem;
+}
+
+.age-group-label {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 2px solid var(--border);
+}
+
+.age-group-label span:first-child {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 1.15rem;
+    color: var(--dark);
+}
+
+.age-range {
+    display: inline-block;
+    background: var(--sage-light);
+    color: var(--sage-dark);
+    font-size: 0.75rem;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    padding: 0.2rem 0.7rem;
+    border-radius: 2rem;
+}
+
+.rates-grid-single {
+    max-width: 320px;
+}
+
+
+/* ============================================================
    CONTACT / ENROLL
    ============================================================ */
 .contact-layout {
