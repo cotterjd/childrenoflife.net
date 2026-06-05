@@ -748,17 +748,13 @@ a { color: inherit; }
 @media (max-width: 860px) {
     .main-nav a:not(.btn-coral) { display: none; }
     .day-grid { grid-template-columns: repeat(3, 1fr); }
-    .day-card:nth-child(2),
-    .day-card:nth-child(4) { display: none; }
     .contact-layout { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 600px) {
     .section { padding: 3.5rem 0; }
     .hero { height: 100svh; min-height: 480px; }
-    .day-grid { grid-template-columns: 1fr; }
-    .day-card:nth-child(2),
-    .day-card:nth-child(4) { display: none; }
+    .day-grid { grid-template-columns: repeat(2, 1fr); }
     .form-row { grid-template-columns: 1fr; }
     .rates-grid { gap: 1.25rem; }
     .hero-actions { flex-direction: column; align-items: center; }
